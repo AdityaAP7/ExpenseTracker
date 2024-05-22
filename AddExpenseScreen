@@ -22,6 +22,15 @@ const AddExpenseScreen = ({ navigation, route }) => {
       </Appbar.Header>
   <TextInput
         label="Description"
+
+
+      <TextInput
+        label="Amount"
+        value={amount}
+        onChangeText={text => setAmount(text)}
+        keyboardType="numeric"
+        style={styles.input}
+      />
         value={description}
         onChangeText={text => setDescription(text)}
         style={styles.input}
