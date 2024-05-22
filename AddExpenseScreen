@@ -41,4 +41,18 @@ const AddExpenseScreen = ({ navigation, route }) => {
     </View>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+  },
+  input: {
+    marginBottom: 16,
+  },
+  button: {
+    marginTop: 16,
+  },
+});
+
+export default AddExpenseScreen;
 
