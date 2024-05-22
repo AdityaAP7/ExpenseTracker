@@ -20,3 +20,9 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <Appbar.BackAction onPress={() => navigation.goBack()} />
         <Appbar.Content title="Add Expense" />
       </Appbar.Header>
+  <TextInput
+        label="Description"
+        value={description}
+        onChangeText={text => setDescription(text)}
+        style={styles.input}
+      />
