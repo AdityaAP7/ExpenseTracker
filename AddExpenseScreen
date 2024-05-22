@@ -35,3 +35,10 @@ const AddExpenseScreen = ({ navigation, route }) => {
         onChangeText={text => setDescription(text)}
         style={styles.input}
       />
+      <Button mode="contained" onPress={handleAddExpense} style={styles.button}>
+        Add Expense
+      </Button>
+    </View>
+  );
+};
+
