@@ -6,3 +6,11 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params;
   const [description, setDescription] = useState('');
   const [amount, setAmount] = useState('');
+
+  const handleAddExpense = () => {
+    setExpenses(prevExpenses => [
+      ...prevExpenses,
+      { id: Date.now(), description, amount: parseFloat(amount) }
+    ]);
+    navigation.goBack();
+  };
