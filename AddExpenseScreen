@@ -6,6 +6,7 @@
 6
 7
 9
+10
 8
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
