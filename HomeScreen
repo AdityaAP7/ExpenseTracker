@@ -9,7 +9,6 @@
 9
 10
 11
-12
 import React, { useState } from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
 import { Appbar, FAB, List, Text } from 'react-native-paper';
