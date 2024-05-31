@@ -13,7 +13,6 @@
 13
 14
 14
-15
 
 import React, { useState } from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
