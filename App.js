@@ -4,7 +4,9 @@
 5
 9
 71
-1
+11
+d
+
 4
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
