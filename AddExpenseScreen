@@ -91,7 +91,9 @@ const styles = StyleSheet.create({
     </View>
   );
 };
-    marginTop: 16,
+    marginTop: 16,Appbar.Content title="Add Expense" />
+      </Appbar.Header>
+  <TextInput
   },
 });
 
