@@ -55,7 +55,10 @@ const AddExpenseScreen = ({ navigation, route }) => {
       </Appbar.Header>
   <TextInput
         label="Description"
-
+const handleAddExpense = () => {
+    setExpenses(prevExpenses => [
+      ...prevExpenses,
+      { id: Date.now(), description
 
       <TextInput
         label="Amount"
