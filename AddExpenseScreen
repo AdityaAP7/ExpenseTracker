@@ -5,3 +5,4 @@ import { TextInput, Button, Appbar } from 'react-native-paper';
 const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params;
   const [description, setDescription] = useState('');
+  const [amount, setAmount] = useState('');
