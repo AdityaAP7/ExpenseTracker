@@ -23,3 +23,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     <View style={styles.container}>
       <Appbar.Header>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
+        <Appbar.Content title="Add Expense" />
