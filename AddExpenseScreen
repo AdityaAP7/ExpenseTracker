@@ -13,3 +13,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   ...prevExpenses,
       { 
         id: Date.now(), 
+        description, 
