@@ -32,3 +32,9 @@ const AddExpenseScreen = ({ navigation, route }) => {
   style={styles.input}
       />
       <TextInput
+  label="Amount"
+        value={amount}
+        onChangeText={text => setAmount(text)}
+        keyboardType="numeric"
+        style={styles.input}
+      />
