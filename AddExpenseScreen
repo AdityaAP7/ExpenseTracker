@@ -7,3 +7,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [description, setDescription] = useState('');
   const [amount, setAmount] = useState('');
   const handleAddExpense = () => {
+    // Convert amount to number and handle possible NaN cases
