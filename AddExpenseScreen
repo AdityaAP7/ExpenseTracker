@@ -19,3 +19,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     ]);
     navigation.goBack();
   };
+  return (
