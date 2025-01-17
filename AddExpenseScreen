@@ -3,3 +3,4 @@ import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { TextInput, Button, Appbar } from 'react-native-paper';
 const AddExpenseScreen = ({ navigation, route }) => {
+  const { setExpenses } = route.params;
