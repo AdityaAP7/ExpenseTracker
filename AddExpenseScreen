@@ -21,3 +21,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   };
   return (
     <View style={styles.container}>
+      <Appbar.Header>
