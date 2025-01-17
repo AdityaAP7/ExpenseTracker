@@ -26,3 +26,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <Appbar.Content title="Add Expense" />
       </Appbar.Header>
       <TextInput
+        label="Description"
