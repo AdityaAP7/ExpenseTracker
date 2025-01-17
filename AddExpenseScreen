@@ -27,3 +27,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       </Appbar.Header>
       <TextInput
         label="Description"
+        value={description}
