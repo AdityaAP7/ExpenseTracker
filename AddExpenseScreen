@@ -9,3 +9,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const handleAddExpense = () => {
     // Convert amount to number and handle possible NaN cases
     const parsedAmount = parseFloat(amount) || 0;
+    setExpenses(prevExpenses => [
