@@ -15,3 +15,7 @@ const AddExpenseScreen = ({ navigation, route }) => {
         id: Date.now(), 
         description, 
         amount: parsedAmount 
+ }
+    ]);
+    navigation.goBack();
+  };
