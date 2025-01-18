@@ -38,3 +38,6 @@ if (!trimmedDescription) {
  // Check if amount is valid and > 0
     if (isNaN(parsedAmount) || parsedAmount <= 0) {
       setAmountError(true);
+  ...prevExpenses,
+      {
+        id: Date.now(),
