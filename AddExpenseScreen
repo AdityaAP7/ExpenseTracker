@@ -41,3 +41,4 @@ if (!trimmedDescription) {
   ...prevExpenses,
       {
         id: Date.now(),
+        description: trimmedDescription,
