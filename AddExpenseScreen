@@ -16,3 +16,6 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [date, setDate] = useState(new Date());
   const [category, setCategory] = useState('Other');
   const [notes, setNotes] = useState('');
+  // Validation states
+  const [descriptionError, setDescriptionError] = useState(false);
+  const [amountError, setAmountError] = useState(false);
