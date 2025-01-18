@@ -44,3 +44,9 @@ if (!trimmedDescription) {
         description: trimmedDescription,
  amount: parsedAmount,
         date,
+ category,
+        notes
+      },
+    ]);
+    navigation.goBack();
+  };
