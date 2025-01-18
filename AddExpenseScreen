@@ -22,3 +22,6 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const handleAddExpense = () => {
 // Basic validation
     const trimmedDescription = description.trim();
+ const parsedAmount = parseFloat(amount);
+
+    // Check if description is empty
