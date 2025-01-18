@@ -27,7 +27,10 @@ const AddExpenseScreen = ({ navigation, route }) => {
     // Check if description is empty
 if (!trimmedDescription) {
       setDescriptionError(true);
-      return;
+      return;return;
+    } else {
+      setAmountError(false);
+    }
     } else {
       setDescriptionError(false);
     }
