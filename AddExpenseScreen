@@ -25,3 +25,9 @@ const AddExpenseScreen = ({ navigation, route }) => {
  const parsedAmount = parseFloat(amount);
 
     // Check if description is empty
+if (!trimmedDescription) {
+      setDescriptionError(true);
+      return;
+    } else {
+      setDescriptionError(false);
+    }
