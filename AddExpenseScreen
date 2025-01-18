@@ -42,3 +42,5 @@ if (!trimmedDescription) {
       {
         id: Date.now(),
         description: trimmedDescription,
+ amount: parsedAmount,
+        date,
