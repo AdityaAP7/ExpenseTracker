@@ -33,7 +33,8 @@ if (!trimmedDescription) {
     }
     } else {
       setDescriptionError(false);
-    }
+    } // If everything is valid, add expense
+    setExpenses(prevExpenses => [
  // Check if amount is valid and > 0
     if (isNaN(parsedAmount) || parsedAmount <= 0) {
       setAmountError(true);
