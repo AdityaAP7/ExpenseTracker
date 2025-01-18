@@ -20,3 +20,5 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [descriptionError, setDescriptionError] = useState(false);
   const [amountError, setAmountError] = useState(false);
   const handleAddExpense = () => {
+// Basic validation
+    const trimmedDescription = description.trim();
