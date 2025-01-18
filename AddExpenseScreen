@@ -9,3 +9,4 @@ import {
   Text,
 } from 'react-native-paper';
 import DateTimePicker from '@react-native-community/datetimepicker';
+import { Picker } from '@react-native-picker/picker';
