@@ -12,3 +12,4 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { Picker } from '@react-native-picker/picker';
 const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params;
+  const [description, setDescription] = useState('');
