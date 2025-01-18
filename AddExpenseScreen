@@ -14,3 +14,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params;
   const [description, setDescription] = useState('');
   const [date, setDate] = useState(new Date());
+  const [category, setCategory] = useState('Other');
