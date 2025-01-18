@@ -19,3 +19,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   // Validation states
   const [descriptionError, setDescriptionError] = useState(false);
   const [amountError, setAmountError] = useState(false);
+  const handleAddExpense = () => {
