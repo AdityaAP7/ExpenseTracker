@@ -62,3 +62,4 @@ if (!trimmedDescription) {
         <Appbar.BackAction onPress={() => navigation.goBack()} />
       </Appbar.Header>
         <TextInput
+          label="Description"
