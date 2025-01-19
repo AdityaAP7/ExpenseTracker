@@ -51,6 +51,8 @@ if (!trimmedDescription) {
     navigation.goBack();
   };  // Handle date change from DateTimePicker  const onChangeDate = (event, selectedDate) => {
     setShowDatePicker(false);
+      <ScrollView contentContainerStyle={styles.contentContainer}>
+
     if (selectedDate) {
 
   return (
