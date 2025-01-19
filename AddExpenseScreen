@@ -49,4 +49,4 @@ if (!trimmedDescription) {
       },
     ]);
     navigation.goBack();
-  };
+  };  // Handle date change from DateTimePicker
