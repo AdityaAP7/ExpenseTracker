@@ -53,3 +53,5 @@ if (!trimmedDescription) {
     setShowDatePicker(false);
     if (selectedDate) {
 
+  return (
+    <View style={styles.container}>
