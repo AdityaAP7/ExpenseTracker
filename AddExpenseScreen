@@ -64,3 +64,9 @@ if (!trimmedDescription) {
         <TextInput
           label="Description"
           value={description}
+   {descriptionError && (
+          <HelperText type="error" visible={descriptionError}>
+            Description cannot be empty.
+          </HelperText>
+        )}
+
