@@ -71,3 +71,4 @@ if (!trimmedDescription) {
         )}
 
         {/* AMOUNT */}
+        <TextInput
