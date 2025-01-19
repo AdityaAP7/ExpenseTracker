@@ -75,3 +75,4 @@ if (!trimmedDescription) {
           label="Amount"
           onChangeText={text => setAmount(text)}
           keyboardType="numeric"
+          style={styles.input}
