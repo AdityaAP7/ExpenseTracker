@@ -87,3 +87,9 @@ if (!trimmedDescription) {
             Please enter a valid amount greater than 0.
           </HelperText>
         )}
+    {/* DATE PICKER */}
+        <Button
+          mode="outlined"
+          onPress={() => setShowDatePicker(true)}
+          style={styles.datePickerButton}
+        >
