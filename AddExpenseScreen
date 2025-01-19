@@ -54,6 +54,7 @@ if (!trimmedDescription) {
       <ScrollView contentContainerStyle={styles.contentContainer}>
 
     if (selectedDate) {
+        {/* DESCRIPTION */}
 
   return (
     <View style={styles.container}>
