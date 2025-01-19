@@ -79,6 +79,7 @@ if (!trimmedDescription) {
           mode="outlined"
   error={amountError}
         />
+        {amountError && (
 
 
 
