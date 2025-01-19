@@ -63,3 +63,4 @@ if (!trimmedDescription) {
       </Appbar.Header>
         <TextInput
           label="Description"
+          value={description}
