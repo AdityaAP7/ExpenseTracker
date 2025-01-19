@@ -82,4 +82,5 @@ if (!trimmedDescription) {
         {amountError && (
 
 
+          <HelperText type="error" visible={amountError}>
 
