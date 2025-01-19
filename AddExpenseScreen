@@ -74,3 +74,4 @@ if (!trimmedDescription) {
         <TextInput
           label="Amount"
           onChangeText={text => setAmount(text)}
+          keyboardType="numeric"
