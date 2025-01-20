@@ -97,3 +97,5 @@ if (!trimmedDescription) {
         </Button>
         <Text style={styles.selectedDateText}>
           {`Selected Date: ${date.toLocaleDateString()}`}
+  >
+          Select Date
