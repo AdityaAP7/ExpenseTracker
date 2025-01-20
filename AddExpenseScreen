@@ -122,3 +122,5 @@ if (!trimmedDescription) {
         <View style={styles.pickerContainer}>
             selectedValue={category}
             style={styles.picker}
+       onValueChange={(itemValue) => setCategory(itemValue)}
+          >
