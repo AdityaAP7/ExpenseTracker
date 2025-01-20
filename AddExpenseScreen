@@ -93,3 +93,4 @@ if (!trimmedDescription) {
           onPress={() => setShowDatePicker(true)}
           style={styles.datePickerButton}
         >
+ Select Date
