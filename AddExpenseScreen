@@ -112,3 +112,4 @@ if (!trimmedDescription) {
         {showDatePicker && (
           <DateTimePicker
             value={date}
+            mode="date"
