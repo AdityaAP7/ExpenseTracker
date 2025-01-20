@@ -106,3 +106,4 @@ if (!trimmedDescription) {
 >
           Select Date
         </Button>
+        <Text style={styles.selectedDateText}>
