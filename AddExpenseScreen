@@ -110,3 +110,4 @@ if (!trimmedDescription) {
           {`Selected Date: ${date.toLocaleDateString()}`}
         </Text>
         {showDatePicker && (
+          <DateTimePicker
