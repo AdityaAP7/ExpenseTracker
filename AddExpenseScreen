@@ -128,3 +128,4 @@ if (!trimmedDescription) {
             <Picker.Item label="Transport" value="Transport" />
             <Picker.Item label="Shopping" value="Shopping" />
             <Picker.Item label="Utilities" value="Utilities" />
+            <Picker.Item label="Entertainment" value="Entertainment" />
