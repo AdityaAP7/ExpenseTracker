@@ -120,3 +120,4 @@ if (!trimmedDescription) {
         {/* CATEGORY PICKER */}
         <Text style={styles.categoryLabel}>Category</Text>
         <View style={styles.pickerContainer}>
+            selectedValue={category}
