@@ -114,3 +114,7 @@ if (!trimmedDescription) {
             value={date}
             mode="date"
             onChange={onChangeDate}
+     />
+        )}
+
+        {/* CATEGORY PICKER */}
