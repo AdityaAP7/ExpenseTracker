@@ -146,3 +146,4 @@ if (!trimmedDescription) {
         {/* ACTION BUTTONS */}
         <View style={styles.buttonRow}>
           <Button
+            mode="contained"
