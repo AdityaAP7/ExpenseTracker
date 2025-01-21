@@ -158,3 +158,4 @@ if (!trimmedDescription) {
     style={styles.button}
           >
   Cancel
+          </Button>
