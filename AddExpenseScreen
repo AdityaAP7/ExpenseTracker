@@ -135,3 +135,4 @@ if (!trimmedDescription) {
         </View>
         {/* NOTES */}
         <TextInput
+          label="Notes (Optional)"
