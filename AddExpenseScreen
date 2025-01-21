@@ -157,3 +157,4 @@ if (!trimmedDescription) {
             onPress={() => navigation.goBack()}
     style={styles.button}
           >
+  Cancel
