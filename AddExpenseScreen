@@ -160,3 +160,4 @@ if (!trimmedDescription) {
   Cancel
           </Button>
         </View>
+      </ScrollView>
