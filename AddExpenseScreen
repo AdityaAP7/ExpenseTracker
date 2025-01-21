@@ -145,3 +145,4 @@ if (!trimmedDescription) {
         />
         {/* ACTION BUTTONS */}
         <View style={styles.buttonRow}>
+          <Button
