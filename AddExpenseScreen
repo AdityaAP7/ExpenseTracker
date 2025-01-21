@@ -136,3 +136,4 @@ if (!trimmedDescription) {
         {/* NOTES */}
         <TextInput
           label="Notes (Optional)"
+          value={notes}
