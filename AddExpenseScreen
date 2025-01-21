@@ -134,3 +134,4 @@ if (!trimmedDescription) {
   </Picker>
         </View>
         {/* NOTES */}
+        <TextInput
