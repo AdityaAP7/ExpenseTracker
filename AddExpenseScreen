@@ -148,3 +148,4 @@ if (!trimmedDescription) {
           <Button
             mode="contained"
             onPress={handleAddExpense}
+            style={styles.button}
