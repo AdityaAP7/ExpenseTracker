@@ -147,3 +147,4 @@ if (!trimmedDescription) {
         <View style={styles.buttonRow}>
           <Button
             mode="contained"
+            onPress={handleAddExpense}
