@@ -149,3 +149,5 @@ if (!trimmedDescription) {
             mode="contained"
             onPress={handleAddExpense}
             style={styles.button}
+>
+            Save
