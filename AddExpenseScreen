@@ -140,3 +140,4 @@ if (!trimmedDescription) {
           onChangeText={text => setNotes(text)}
           style={styles.input}
           mode="outlined"
+          multiline
