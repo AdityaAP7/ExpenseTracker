@@ -133,3 +133,4 @@ if (!trimmedDescription) {
             <Picker.Item label="Other" value="Other" />
   </Picker>
         </View>
+        {/* NOTES */}
