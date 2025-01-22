@@ -19,3 +19,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
   });
     }
   }, [editingExpense]);
+  const handleSubmit = (e) => {
