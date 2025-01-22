@@ -44,3 +44,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
   date: formData.date,
       });
     }
+    // Reset form
