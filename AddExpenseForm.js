@@ -21,3 +21,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
   }, [editingExpense]);
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formData.description || !formData.category || !formData.amount || !formData.date) {
