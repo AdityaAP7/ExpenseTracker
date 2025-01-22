@@ -45,3 +45,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       });
     }
     // Reset form
+setFormData({
