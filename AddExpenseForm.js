@@ -29,3 +29,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       // Edit existing expense
       editExpense(formData.id, {
         description: formData.description,
+        category: formData.category,
