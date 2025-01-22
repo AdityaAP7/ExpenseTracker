@@ -15,3 +15,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
         description: editingExpense.description,
         category: editingExpense.category,
         amount: editingExpense.amount,
+        date: editingExpense.date,
