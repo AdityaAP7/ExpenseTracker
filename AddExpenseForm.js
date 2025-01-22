@@ -38,3 +38,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       // Add new expense
       addExpense({
         id: Date.now().toString(),
+        description: formData.description,
