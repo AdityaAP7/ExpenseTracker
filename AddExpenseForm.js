@@ -34,3 +34,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
    date: formData.date,
       });
       onCancelEdit(); // call parent function to reset editing state
+    } else {
