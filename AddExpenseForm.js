@@ -36,3 +36,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       onCancelEdit(); // call parent function to reset editing state
     } else {
       // Add new expense
+      addExpense({
