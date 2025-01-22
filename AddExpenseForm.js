@@ -27,3 +27,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
     }
     if (isEditing) {
       // Edit existing expense
+      editExpense(formData.id, {
