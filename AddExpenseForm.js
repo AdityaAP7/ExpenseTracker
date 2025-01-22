@@ -31,3 +31,5 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
         description: formData.description,
         category: formData.category,
         amount: parseFloat(formData.amount),
+   date: formData.date,
+      });
