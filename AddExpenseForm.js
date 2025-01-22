@@ -10,3 +10,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
   });
   useEffect(() => {
     if (editingExpense) {
+      setFormData({
