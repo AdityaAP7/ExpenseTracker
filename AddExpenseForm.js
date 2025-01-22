@@ -9,3 +9,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
     date: '',
   });
   useEffect(() => {
+    if (editingExpense) {
