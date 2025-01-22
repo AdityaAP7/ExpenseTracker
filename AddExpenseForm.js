@@ -40,3 +40,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
         id: Date.now().toString(),
         description: formData.description,
         category: formData.category,
+        amount: parseFloat(formData.amount),
