@@ -18,3 +18,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
         date: editingExpense.date,
   });
     }
+  }, [editingExpense]);
