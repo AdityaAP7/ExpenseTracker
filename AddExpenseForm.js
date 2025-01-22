@@ -13,3 +13,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       setFormData({
         id: editingExpense.id,
         description: editingExpense.description,
+        category: editingExpense.category,
