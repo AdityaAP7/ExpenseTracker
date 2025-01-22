@@ -23,3 +23,5 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
     e.preventDefault();
     if (!formData.description || !formData.category || !formData.amount || !formData.date) {
       alert('Please fill out all fields');
+ return;
+    }
