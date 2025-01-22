@@ -25,3 +25,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       alert('Please fill out all fields');
  return;
     }
+    if (isEditing) {
