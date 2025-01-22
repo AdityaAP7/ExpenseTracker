@@ -33,3 +33,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
         amount: parseFloat(formData.amount),
    date: formData.date,
       });
+      onCancelEdit(); // call parent function to reset editing state
