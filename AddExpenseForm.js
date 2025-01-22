@@ -39,3 +39,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
       addExpense({
         id: Date.now().toString(),
         description: formData.description,
+        category: formData.category,
