@@ -58,3 +58,4 @@ setFormData({
           type="text"
           name="description"
           placeholder="Description"
+          value={formData.description}
