@@ -66,3 +66,5 @@ setFormData({
           name="category"
           placeholder="Category"
           value={formData.category}
+  onChange={handleInputChange}
+        />
