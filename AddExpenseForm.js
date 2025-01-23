@@ -71,3 +71,4 @@ setFormData({
         <input
           type="number"
           placeholder="Amount"
+          step="0.01"
