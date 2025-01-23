@@ -47,3 +47,4 @@ const AddExpenseForm = ({ editingExpense, onCancelEdit }) => {
     // Reset form
 setFormData({
   const handleInputChange = (e) => {
+    const { name, value } = e.target;
