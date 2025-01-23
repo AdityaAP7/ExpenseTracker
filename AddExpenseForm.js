@@ -70,3 +70,4 @@ setFormData({
         />
         <input
           type="number"
+          placeholder="Amount"
