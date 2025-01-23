@@ -78,3 +78,4 @@ setFormData({
         <input
           type="date"
           name="date"
+          value={formData.date}
