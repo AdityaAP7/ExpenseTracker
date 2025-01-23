@@ -74,3 +74,5 @@ setFormData({
           step="0.01"
           value={formData.amount}
           onChange={handleInputChange}
+ />
+        <input
