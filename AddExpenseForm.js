@@ -59,3 +59,4 @@ setFormData({
           name="description"
           placeholder="Description"
           value={formData.description}
+          onChange={handleInputChange}
