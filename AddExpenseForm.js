@@ -79,3 +79,5 @@ setFormData({
           type="date"
           name="date"
           value={formData.date}
+         onChange={handleInputChange}
+        />
