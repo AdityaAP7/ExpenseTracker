@@ -57,3 +57,4 @@ setFormData({
         <input
           type="text"
           name="description"
+          placeholder="Description"
