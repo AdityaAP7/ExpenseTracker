@@ -62,3 +62,4 @@ setFormData({
           onChange={handleInputChange}
   />
         <input
+          type="text"
