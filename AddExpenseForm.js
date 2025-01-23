@@ -77,3 +77,4 @@ setFormData({
  />
         <input
           type="date"
+          name="date"
