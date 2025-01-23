@@ -52,3 +52,4 @@ setFormData({
   };
   return (
     <div style={{ marginBottom: '2rem' }}>
+      <h2>{isEditing ? 'Edit Expense' : 'Add New Expense'}</h2>
