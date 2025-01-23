@@ -63,3 +63,4 @@ setFormData({
   />
         <input
           type="text"
+          name="category"
