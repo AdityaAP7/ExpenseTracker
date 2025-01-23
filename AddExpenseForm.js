@@ -69,3 +69,4 @@ setFormData({
   onChange={handleInputChange}
         />
         <input
+          type="number"
