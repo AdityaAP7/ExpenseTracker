@@ -64,3 +64,4 @@ setFormData({
         <input
           type="text"
           name="category"
+          placeholder="Category"
