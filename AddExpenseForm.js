@@ -65,3 +65,4 @@ setFormData({
           type="text"
           name="category"
           placeholder="Category"
+          value={formData.category}
