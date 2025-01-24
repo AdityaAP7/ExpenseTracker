@@ -84,3 +84,6 @@ setFormData({
  <button type="submit">{isEditing ? 'Update Expense' : 'Add Expense'}</button>
         {isEditing && <button onClick={onCancelEdit}>Cancel</button>}
       </form>
+</div>
+  );
+};
