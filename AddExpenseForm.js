@@ -81,3 +81,4 @@ setFormData({
           value={formData.date}
          onChange={handleInputChange}
         />
+ <button type="submit">{isEditing ? 'Update Expense' : 'Add Expense'}</button>
