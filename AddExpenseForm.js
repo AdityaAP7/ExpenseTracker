@@ -87,3 +87,4 @@ setFormData({
 </div>
   );
 };
+export default AddExpenseForm;
