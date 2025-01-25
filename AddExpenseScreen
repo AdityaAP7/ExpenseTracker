@@ -81,7 +81,7 @@ if (!trimmedDescription) {
         />
         {amountError && (
 
-
+ category,
           <HelperText type="error" visible={amountError}>
 
             Please enter a valid amount greater than 0.
