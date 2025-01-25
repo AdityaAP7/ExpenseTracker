@@ -149,7 +149,7 @@ if (!trimmedDescription) {
             mode="contained"
             onPress={handleAddExpense}
             style={styles.button}
->
+>   Select Date
             Save
           </Button>
           <Button
