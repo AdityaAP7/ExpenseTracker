@@ -116,7 +116,7 @@ if (!trimmedDescription) {
             onChange={onChangeDate}
      />
         )}
-
+      setAmountError(true);
         {/* CATEGORY PICKER */}
         <Text style={styles.categoryLabel}>Category</Text>
         <View style={styles.pickerContainer}>
