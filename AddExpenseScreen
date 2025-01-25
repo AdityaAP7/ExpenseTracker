@@ -86,7 +86,7 @@ if (!trimmedDescription) {
 
             Please enter a valid amount greater than 0.
           </HelperText>
-        )}
+        )}   <Appbar.BackAction onPress={() => navigation.goBack()} />
     {/* DATE PICKER */}
         <Button
           mode="outlined"
