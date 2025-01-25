@@ -69,7 +69,7 @@ if (!trimmedDescription) {
             Description cannot be empty.
           </HelperText>
         )}
-
+  <Appbar.Header>
         {/* AMOUNT */}
         <TextInput
           label="Amount"
