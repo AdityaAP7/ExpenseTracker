@@ -45,3 +45,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     }
     // 2. Validate amount
     if (isNaN(parsedAmount) || parsedAmount <= 0) {
+      setAmountError(true);
