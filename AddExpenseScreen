@@ -7,3 +7,4 @@ import {
   HelperText,
   Text,
   Switch,
+} from 'react-native-paper';
