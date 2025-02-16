@@ -43,3 +43,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     } else {
       setDescriptionError(false);
     }
+    // 2. Validate amount
