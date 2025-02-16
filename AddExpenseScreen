@@ -41,3 +41,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       setDescriptionError(true);
       return;
     } else {
+      setDescriptionError(false);
