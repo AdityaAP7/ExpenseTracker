@@ -48,3 +48,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       setAmountError(true);
       return;
     } else {
+      setAmountError(false);
