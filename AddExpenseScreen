@@ -38,3 +38,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     const parsedAmount = parseFloat(amount);
     // 1. Validate description
     if (!trimmedDescription) {
+      setDescriptionError(true);
