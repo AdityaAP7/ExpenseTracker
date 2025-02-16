@@ -32,3 +32,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       setDate(selectedDate);
     }
   };
+  // Add expense (or income)
