@@ -19,3 +19,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [category, setCategory] = useState('Other');
   const [notes, setNotes] = useState('');
+  const [currency, setCurrency] = useState('USD'); // New Feature
