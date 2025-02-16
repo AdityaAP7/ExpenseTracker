@@ -40,3 +40,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     if (!trimmedDescription) {
       setDescriptionError(true);
       return;
+    } else {
