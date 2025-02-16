@@ -20,3 +20,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [category, setCategory] = useState('Other');
   const [notes, setNotes] = useState('');
   const [currency, setCurrency] = useState('USD'); // New Feature
+  // Toggle for income vs expense
