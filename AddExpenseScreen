@@ -14,3 +14,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params || {};
   // Local states
   const [description, setDescription] = useState('');
+  const [amount, setAmount] = useState('');
