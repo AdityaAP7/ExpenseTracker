@@ -16,3 +16,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [description, setDescription] = useState('');
   const [amount, setAmount] = useState('');
   const [date, setDate] = useState(new Date());
+  const [showDatePicker, setShowDatePicker] = useState(false);
