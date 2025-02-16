@@ -13,3 +13,4 @@ import { Picker } from '@react-native-picker/picker';
 const AddExpenseScreen = ({ navigation, route }) => {
   const { setExpenses } = route.params || {};
   // Local states
+  const [description, setDescription] = useState('');
