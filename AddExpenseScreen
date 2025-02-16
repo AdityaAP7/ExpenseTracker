@@ -27,3 +27,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [amountError, setAmountError] = useState(false);
   // Handle date change
   const onChangeDate = (event, selectedDate) => {
+    setShowDatePicker(false);
