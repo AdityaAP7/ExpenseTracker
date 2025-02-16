@@ -30,3 +30,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     setShowDatePicker(false);
     if (selectedDate) {
       setDate(selectedDate);
+    }
