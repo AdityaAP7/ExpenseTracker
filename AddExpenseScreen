@@ -34,3 +34,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   };
   // Add expense (or income)
   const handleAddExpense = () => {
+    const trimmedDescription = description.trim();
