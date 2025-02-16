@@ -22,3 +22,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
   const [currency, setCurrency] = useState('USD'); // New Feature
   // Toggle for income vs expense
   const [isIncome, setIsIncome] = useState(false); // New Feature
+  // Validation states
