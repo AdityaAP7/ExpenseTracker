@@ -47,3 +47,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     if (isNaN(parsedAmount) || parsedAmount <= 0) {
       setAmountError(true);
       return;
+    } else {
