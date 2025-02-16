@@ -39,3 +39,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     // 1. Validate description
     if (!trimmedDescription) {
       setDescriptionError(true);
+      return;
