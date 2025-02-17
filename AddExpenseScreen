@@ -67,3 +67,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     // 5. Navigate back
     navigation.goBack();
   };
+  return (
