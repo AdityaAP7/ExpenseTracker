@@ -58,3 +58,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       amount: isIncome ? parsedAmount : -parsedAmount,
       date,
       category,
+      notes,
