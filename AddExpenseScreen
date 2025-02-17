@@ -63,3 +63,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       type: isIncome ? 'Income' : 'Expense', // for clarity
     };
     // 4. Update the parent state
+    setExpenses((prevExpenses) => [...prevExpenses, newExpense]);
