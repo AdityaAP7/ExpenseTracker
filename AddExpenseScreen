@@ -56,3 +56,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       description: trimmedDescription,
       // Convert to negative amount if it's an expense, keep positive if it's income
       amount: isIncome ? parsedAmount : -parsedAmount,
+      date,
