@@ -51,3 +51,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       setAmountError(false);
     }
     // 3. If everything is valid, create the new item
+    const newExpense = {
