@@ -61,3 +61,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       notes,
       currency,
       type: isIncome ? 'Income' : 'Expense', // for clarity
+    };
