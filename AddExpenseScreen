@@ -64,3 +64,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     };
     // 4. Update the parent state
     setExpenses((prevExpenses) => [...prevExpenses, newExpense]);
+    // 5. Navigate back
