@@ -68,3 +68,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     navigation.goBack();
   };
   return (
+    <View style={styles.container}>
