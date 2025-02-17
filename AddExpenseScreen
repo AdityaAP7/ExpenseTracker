@@ -62,3 +62,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       currency,
       type: isIncome ? 'Income' : 'Expense', // for clarity
     };
+    // 4. Update the parent state
