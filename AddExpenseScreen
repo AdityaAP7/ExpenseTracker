@@ -53,3 +53,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
     // 3. If everything is valid, create the new item
     const newExpense = {
       id: Date.now(),
+      description: trimmedDescription,
