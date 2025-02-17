@@ -59,3 +59,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       date,
       category,
       notes,
+      currency,
