@@ -78,3 +78,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
       <ScrollView contentContainerStyle={styles.contentContainer}>
         {/* DESCRIPTION */}
         <TextInput
+          label="Description"
