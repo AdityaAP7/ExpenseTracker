@@ -94,3 +94,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <TextInput
           label="Amount"
           value={amount}
+          onChangeText={(text) => setAmount(text)}
