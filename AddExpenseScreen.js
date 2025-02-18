@@ -105,3 +105,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             Please enter a valid amount greater than 0.
           </HelperText>
         )}
+        {/* CURRENCY PICKER */}
