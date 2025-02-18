@@ -89,3 +89,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           <HelperText type="error" visible={descriptionError}>
             Description cannot be empty.
           </HelperText>
+        )}
