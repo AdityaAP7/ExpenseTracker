@@ -100,3 +100,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           mode="outlined"
           error={amountError}
         />
+        {amountError && (
