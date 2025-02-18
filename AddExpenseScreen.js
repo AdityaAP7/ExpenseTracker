@@ -84,3 +84,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           style={styles.input}
           mode="outlined"
           error={descriptionError}
+        />
