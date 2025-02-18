@@ -81,3 +81,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           label="Description"
           value={description}
           onChangeText={(text) => setDescription(text)}
+          style={styles.input}
