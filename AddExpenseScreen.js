@@ -86,3 +86,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           error={descriptionError}
         />
         {descriptionError && (
+          <HelperText type="error" visible={descriptionError}>
