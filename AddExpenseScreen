@@ -75,3 +75,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <Appbar.Content title="Add Transaction" />
       </Appbar.Header>
       {/* Form */}
+      <ScrollView contentContainerStyle={styles.contentContainer}>
