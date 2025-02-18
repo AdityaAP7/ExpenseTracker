@@ -97,3 +97,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           onChangeText={(text) => setAmount(text)}
           keyboardType="numeric"
           style={styles.input}
+          mode="outlined"
