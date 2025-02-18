@@ -98,3 +98,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           keyboardType="numeric"
           style={styles.input}
           mode="outlined"
+          error={amountError}
