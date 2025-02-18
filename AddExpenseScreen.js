@@ -90,3 +90,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             Description cannot be empty.
           </HelperText>
         )}
+        {/* AMOUNT */}
