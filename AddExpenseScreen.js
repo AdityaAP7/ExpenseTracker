@@ -91,3 +91,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           </HelperText>
         )}
         {/* AMOUNT */}
+        <TextInput
