@@ -79,3 +79,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         {/* DESCRIPTION */}
         <TextInput
           label="Description"
+          value={description}
