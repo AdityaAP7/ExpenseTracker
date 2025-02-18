@@ -103,3 +103,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         {amountError && (
           <HelperText type="error" visible={amountError}>
             Please enter a valid amount greater than 0.
+          </HelperText>
