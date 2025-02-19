@@ -128,3 +128,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             onValueChange={() => setIsIncome(!isIncome)}
           />
         </View>
+        {/* DATE PICKER */}
