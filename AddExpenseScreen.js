@@ -127,3 +127,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           <Switch
             onValueChange={() => setIsIncome(!isIncome)}
           />
+        </View>
