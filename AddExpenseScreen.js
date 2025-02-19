@@ -149,3 +149,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         )}
         {/* CATEGORY PICKER */}
         <Text style={styles.label}>Category</Text>
+        <View style={styles.pickerContainer}>
