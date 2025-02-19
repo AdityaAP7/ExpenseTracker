@@ -116,3 +116,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             <Picker.Item label="USD" value="USD" />
             <Picker.Item label="EUR" value="EUR" />
             <Picker.Item label="GBP" value="GBP" />
+            <Picker.Item label="INR" value="INR" />
