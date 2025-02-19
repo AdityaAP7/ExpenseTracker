@@ -134,3 +134,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           onPress={() => setShowDatePicker(true)}
           style={styles.datePickerButton}
         >
+          Select Date
