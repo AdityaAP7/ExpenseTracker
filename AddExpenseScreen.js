@@ -135,3 +135,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           style={styles.datePickerButton}
         >
           Select Date
+        </Button>
