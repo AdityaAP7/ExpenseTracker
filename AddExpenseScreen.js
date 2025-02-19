@@ -138,3 +138,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         </Button>
         <Text style={styles.selectedDateText}>
           {`Selected: ${date.toLocaleDateString()}`}
+        </Text>
