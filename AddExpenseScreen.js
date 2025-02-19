@@ -129,3 +129,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           />
         </View>
         {/* DATE PICKER */}
+        <Button
