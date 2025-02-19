@@ -141,3 +141,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         </Text>
         {showDatePicker && (
           <DateTimePicker
+            value={date}
