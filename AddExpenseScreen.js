@@ -154,3 +154,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             selectedValue={category}
             style={styles.picker}
             onValueChange={(itemValue) => setCategory(itemValue)}
+>
