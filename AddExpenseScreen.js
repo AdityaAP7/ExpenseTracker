@@ -136,3 +136,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         >
           Select Date
         </Button>
+        <Text style={styles.selectedDateText}>
