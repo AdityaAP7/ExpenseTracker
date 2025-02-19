@@ -144,3 +144,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             value={date}
             mode="date"
             display="default"
+            onChange={onChangeDate}
