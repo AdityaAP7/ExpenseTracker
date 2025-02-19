@@ -106,3 +106,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           </HelperText>
         )}
         {/* CURRENCY PICKER */}
+        <Text style={styles.label}>Currency</Text>
