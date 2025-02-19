@@ -121,3 +121,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             {/* Add more as needed */}
           </Picker>
         </View>
+        {/* INCOME VS EXPENSE TOGGLE */}
