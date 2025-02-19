@@ -122,3 +122,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           </Picker>
         </View>
         {/* INCOME VS EXPENSE TOGGLE */}
+        <View style={styles.toggleRow}>
