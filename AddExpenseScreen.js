@@ -125,3 +125,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <View style={styles.toggleRow}>
           <Text style={styles.label}>Is this Income?</Text>
           <Switch
+            onValueChange={() => setIsIncome(!isIncome)}
