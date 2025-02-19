@@ -126,3 +126,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           <Text style={styles.label}>Is this Income?</Text>
           <Switch
             onValueChange={() => setIsIncome(!isIncome)}
+          />
