@@ -120,3 +120,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             <Picker.Item label="JPY" value="JPY" />
             {/* Add more as needed */}
           </Picker>
+        </View>
