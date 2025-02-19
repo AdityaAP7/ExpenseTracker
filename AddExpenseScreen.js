@@ -155,3 +155,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             style={styles.picker}
             onValueChange={(itemValue) => setCategory(itemValue)}
 >
+            <Picker.Item label="Food" value="Food" />
