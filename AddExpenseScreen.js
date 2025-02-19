@@ -110,3 +110,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <View style={styles.pickerContainer}>
           <Picker
             selectedValue={currency}
+            style={styles.picker}
