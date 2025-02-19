@@ -119,3 +119,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             <Picker.Item label="INR" value="INR" />
             <Picker.Item label="JPY" value="JPY" />
             {/* Add more as needed */}
+          </Picker>
