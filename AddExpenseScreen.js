@@ -109,3 +109,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <Text style={styles.label}>Currency</Text>
         <View style={styles.pickerContainer}>
           <Picker
+            selectedValue={currency}
