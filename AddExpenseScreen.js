@@ -112,3 +112,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             selectedValue={currency}
             style={styles.picker}
             onValueChange={(itemValue) => setCurrency(itemValue)}
+          >
