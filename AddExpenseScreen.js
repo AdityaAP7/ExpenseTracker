@@ -147,3 +147,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             onChange={onChangeDate}
           />
         )}
+        {/* CATEGORY PICKER */}
