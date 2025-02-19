@@ -123,3 +123,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         </View>
         {/* INCOME VS EXPENSE TOGGLE */}
         <View style={styles.toggleRow}>
+          <Text style={styles.label}>Is this Income?</Text>
