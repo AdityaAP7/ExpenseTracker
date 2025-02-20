@@ -168,3 +168,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           label="Notes (Optional)"
           value={notes}
           onChangeText={(text) => setNotes(text)}
+          style={styles.input}
