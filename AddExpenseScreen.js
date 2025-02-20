@@ -173,3 +173,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           multiline
           numberOfLines={3}
         />
+        {/* ACTION BUTTONS */}
