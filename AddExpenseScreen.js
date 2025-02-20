@@ -175,3 +175,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         />
         {/* ACTION BUTTONS */}
         <View style={styles.buttonRow}>
+          <Button mode="contained" onPress={handleAddExpense} style={styles.button}>
