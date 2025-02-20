@@ -172,3 +172,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           mode="outlined"
           multiline
           numberOfLines={3}
+        />
