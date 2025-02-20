@@ -159,3 +159,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             <Picker.Item label="Transport" value="Transport" />
             <Picker.Item label="Utilities" value="Utilities" />
             <Picker.Item label="Entertainment" value="Entertainment" />
+            <Picker.Item label="Healthcare" value="Healthcare" />
