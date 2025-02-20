@@ -167,3 +167,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         <TextInput
           label="Notes (Optional)"
           value={notes}
+          onChangeText={(text) => setNotes(text)}
