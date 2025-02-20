@@ -164,3 +164,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           </Picker>
         </View>
         {/* NOTES */}
+        <TextInput
