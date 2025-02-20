@@ -174,3 +174,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           numberOfLines={3}
         />
         {/* ACTION BUTTONS */}
+        <View style={styles.buttonRow}>
