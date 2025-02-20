@@ -165,3 +165,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
         </View>
         {/* NOTES */}
         <TextInput
+          label="Notes (Optional)"
