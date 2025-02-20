@@ -170,3 +170,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
           onChangeText={(text) => setNotes(text)}
           style={styles.input}
           mode="outlined"
+          multiline
