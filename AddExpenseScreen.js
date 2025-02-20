@@ -163,3 +163,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
             <Picker.Item label="Other" value="Other" />
           </Picker>
         </View>
+        {/* NOTES */}
