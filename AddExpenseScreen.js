@@ -205,3 +205,4 @@ entContainer: {
     marginTop: 8,
     fontSize: 16,
     marginBottom: 4,
+  },
