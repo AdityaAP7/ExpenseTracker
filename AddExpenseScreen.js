@@ -182,3 +182,4 @@ Save
             mode="text"
             onPress={() => navigation.goBack()}
             style={styles.button}
+          >
