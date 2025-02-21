@@ -209,3 +209,4 @@ entContainer: {
   pickerContainer: {
     borderWidth: 1,
     borderColor: '#ccc',
+    borderRadius: 4,
