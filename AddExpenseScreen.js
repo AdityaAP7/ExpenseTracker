@@ -211,3 +211,4 @@ entContainer: {
     borderColor: '#ccc',
     borderRadius: 4,
     marginBottom: 16,
+    overflow: 'hidden',
