@@ -195,4 +195,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  contentContainer: {
+  cont    padding: 16,
+entContainer: {
