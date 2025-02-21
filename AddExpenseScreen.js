@@ -199,3 +199,4 @@ const styles = StyleSheet.create({
 entContainer: {
   },
   input: {
+    marginBottom: 16,
