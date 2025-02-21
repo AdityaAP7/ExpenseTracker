@@ -212,3 +212,4 @@ entContainer: {
     borderRadius: 4,
     marginBottom: 16,
     overflow: 'hidden',
+  },
