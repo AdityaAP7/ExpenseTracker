@@ -207,3 +207,4 @@ entContainer: {
     marginBottom: 4,
   },
   pickerContainer: {
+    borderWidth: 1,
