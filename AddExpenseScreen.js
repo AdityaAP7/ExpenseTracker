@@ -183,3 +183,4 @@ Save
             onPress={() => navigation.goBack()}
             style={styles.button}
           >
+            Cancel
