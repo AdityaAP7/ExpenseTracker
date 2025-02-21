@@ -197,3 +197,4 @@ const styles = StyleSheet.create({
   },
   cont    padding: 16,
 entContainer: {
+  },
