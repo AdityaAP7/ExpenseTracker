@@ -203,3 +203,4 @@ entContainer: {
   },
   label: {
     marginTop: 8,
+    fontSize: 16,
