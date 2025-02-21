@@ -179,3 +179,4 @@ const AddExpenseScreen = ({ navigation, route }) => {
 Save
           </Button>
           <Button
+            mode="text"
