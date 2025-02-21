@@ -180,3 +180,4 @@ Save
           </Button>
           <Button
             mode="text"
+            onPress={() => navigation.goBack()}
