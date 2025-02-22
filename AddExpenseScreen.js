@@ -222,3 +222,4 @@ entContainer: {
     alignItems: 'center',
     justifyContent: 'space-between',
     marginVertical: 12,
+  },
