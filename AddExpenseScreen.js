@@ -224,3 +224,4 @@ entContainer: {
     marginVertical: 12,
   },
   datePickerButton: {
+    marginVertical: 8,
