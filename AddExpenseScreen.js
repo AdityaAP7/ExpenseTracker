@@ -227,3 +227,4 @@ entContainer: {
     marginVertical: 8,
   },
   selectedDateText: {
+    marginBottom: 16,
