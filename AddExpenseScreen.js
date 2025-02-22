@@ -232,3 +232,4 @@ entContainer: {
   },
   buttonRow: {
     flexDirection: 'row',
+    justifyContent: 'space-around',
