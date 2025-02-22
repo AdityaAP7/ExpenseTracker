@@ -219,3 +219,4 @@ entContainer: {
   },
   toggleRow: {
     flexDirection: 'row',
+    alignItems: 'center',
