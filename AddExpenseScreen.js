@@ -231,3 +231,4 @@ entContainer: {
     fontStyle: 'italic',
   },
   buttonRow: {
+    flexDirection: 'row',
