@@ -236,3 +236,4 @@ entContainer: {
     marginTop: 16,
   },
   button: {
+    marginHorizontal: 8,
