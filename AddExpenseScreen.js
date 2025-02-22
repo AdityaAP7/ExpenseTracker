@@ -235,3 +235,4 @@ entContainer: {
     justifyContent: 'space-around',
     marginTop: 16,
   },
+  button: {
