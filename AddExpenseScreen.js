@@ -228,3 +228,4 @@ entContainer: {
   },
   selectedDateText: {
     marginBottom: 16,
+    fontStyle: 'italic',
