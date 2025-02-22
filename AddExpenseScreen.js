@@ -214,3 +214,4 @@ entContainer: {
     overflow: 'hidden',
   },
   picker: {
+    height: 50,
