@@ -218,3 +218,4 @@ entContainer: {
     width: '100%',
   },
   toggleRow: {
+    flexDirection: 'row',
