@@ -230,3 +230,4 @@ entContainer: {
     marginBottom: 16,
     fontStyle: 'italic',
   },
+  buttonRow: {
