@@ -220,3 +220,4 @@ entContainer: {
   toggleRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
