@@ -5,3 +5,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
   const isEditing = Boolean(editingExpense);
   const [formData, setFormData] = useState({
     id: '',
+    description: '',
