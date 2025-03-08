@@ -16,3 +16,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         id: editingExpense.id,
         description: editingExpense.description,
         category: editingExpense.category,
+        amount: editingExpense.amount,
