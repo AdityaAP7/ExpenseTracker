@@ -14,3 +14,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     if (editingExpense) {
       setFormData({
         id: editingExpense.id,
+        description: editingExpense.description,
