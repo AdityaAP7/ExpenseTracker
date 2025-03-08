@@ -20,3 +20,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         date: editingExpense.date,
       });
     } else {
+      // Reset if there's no editingExpense
