@@ -18,3 +18,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         category: editingExpense.category,
         amount: editingExpense.amount,
         date: editingExpense.date,
+      });
