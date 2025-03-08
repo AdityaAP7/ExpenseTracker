@@ -22,3 +22,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     } else {
       // Reset if there's no editingExpense
       setFormData({
+        id: '',
