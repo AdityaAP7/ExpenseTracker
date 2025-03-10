@@ -30,3 +30,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       });
   }
   }, [editingExpense]);
+  const handleInputChange = (e) => {
