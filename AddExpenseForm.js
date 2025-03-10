@@ -47,3 +47,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       editExpense(id, {
         description,
         category,
+        amount: parseFloat(amount),
