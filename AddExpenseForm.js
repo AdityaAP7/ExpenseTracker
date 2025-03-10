@@ -29,3 +29,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         date: '',
       });
   }
+  }, [editingExpense]);
