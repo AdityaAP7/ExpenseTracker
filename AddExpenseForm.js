@@ -34,3 +34,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
+  const handleSubmit = (e) => {
