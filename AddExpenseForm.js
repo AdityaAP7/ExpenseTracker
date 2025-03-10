@@ -44,3 +44,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     }
     if (isEditing) {
       // Edit existing expense
+      editExpense(id, {
