@@ -37,3 +37,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { description, category, amount, date, id } = formData;
+    // Basic validation
