@@ -46,3 +46,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       // Edit existing expense
       editExpense(id, {
         description,
+        category,
