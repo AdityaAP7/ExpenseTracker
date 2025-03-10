@@ -27,3 +27,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         category: '',
         amount: '',
         date: '',
+      });
