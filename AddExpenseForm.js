@@ -39,3 +39,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     const { description, category, amount, date, id } = formData;
     // Basic validation
     if (!description || !category || !amount || !date) {
+      alert('Please fill out all fields');
