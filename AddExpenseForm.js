@@ -24,3 +24,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       setFormData({
         id: '',
         description: '',
+        category: '',
