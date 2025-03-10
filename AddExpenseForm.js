@@ -41,3 +41,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     if (!description || !category || !amount || !date) {
       alert('Please fill out all fields');
       return;
+    }
