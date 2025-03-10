@@ -38,3 +38,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     e.preventDefault();
     const { description, category, amount, date, id } = formData;
     // Basic validation
+    if (!description || !category || !amount || !date) {
