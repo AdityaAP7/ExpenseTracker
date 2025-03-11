@@ -61,3 +61,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         date,
       });
     }
+    // Reset form after submission
