@@ -56,3 +56,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       addExpense({
         id: Date.now().toString(),
         description,
+        category,
