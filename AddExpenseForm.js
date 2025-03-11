@@ -59,3 +59,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         category,
         amount: parseFloat(amount),
         date,
+      });
