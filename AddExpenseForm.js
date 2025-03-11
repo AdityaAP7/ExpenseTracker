@@ -53,3 +53,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       onCancelEdit();
     } else {
       // Add new expense
+      addExpense({
