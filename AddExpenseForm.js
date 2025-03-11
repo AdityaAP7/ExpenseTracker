@@ -50,3 +50,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         amount: parseFloat(amount),
         date,
       });
+      onCancelEdit();
