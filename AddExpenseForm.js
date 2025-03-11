@@ -54,3 +54,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     } else {
       // Add new expense
       addExpense({
+        id: Date.now().toString(),
