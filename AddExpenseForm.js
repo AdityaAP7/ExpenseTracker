@@ -66,3 +66,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       id: '',
       description: '',
       category: '',
+      amount: '',
