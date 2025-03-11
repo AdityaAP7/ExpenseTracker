@@ -51,3 +51,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         date,
       });
       onCancelEdit();
+    } else {
