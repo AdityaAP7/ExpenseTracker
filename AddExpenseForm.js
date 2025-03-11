@@ -57,3 +57,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         id: Date.now().toString(),
         description,
         category,
+        amount: parseFloat(amount),
