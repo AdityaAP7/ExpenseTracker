@@ -64,3 +64,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     // Reset form after submission
     setFormData({
       id: '',
+      description: '',
