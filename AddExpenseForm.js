@@ -76,3 +76,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '1rem' }}>
         <input
           type="text"
+          name="description"
