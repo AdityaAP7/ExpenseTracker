@@ -83,3 +83,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         />
         <input
           type="text"
+          name="category"
