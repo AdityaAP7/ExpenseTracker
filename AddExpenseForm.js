@@ -81,3 +81,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           value={formData.description}
           onChange={handleInputChange}
         />
+        <input
