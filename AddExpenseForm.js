@@ -78,3 +78,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           type="text"
           name="description"
           placeholder="Description"
+          value={formData.description}
