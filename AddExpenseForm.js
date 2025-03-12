@@ -77,3 +77,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         <input
           type="text"
           name="description"
+          placeholder="Description"
