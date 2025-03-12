@@ -71,3 +71,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     });
   };
   return (
+    <div style={{ marginBottom: '2rem' }}>
