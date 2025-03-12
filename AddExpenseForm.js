@@ -70,3 +70,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
       date: '',
     });
   };
+  return (
