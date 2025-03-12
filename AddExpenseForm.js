@@ -87,4 +87,5 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           placeholder="Category"
           value={formData.category}
           onChange={handleInputChange}
-        />
+        />        <input
+
