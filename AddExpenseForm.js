@@ -74,3 +74,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     <div style={{ marginBottom: '2rem' }}>
       <h2>{isEditing ? 'Edit Expense' : 'Add New Expense'}</h2>
       <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '1rem' }}>
+        <input
