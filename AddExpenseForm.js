@@ -79,3 +79,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           name="description"
           placeholder="Description"
           value={formData.description}
+          onChange={handleInputChange}
