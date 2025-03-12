@@ -88,4 +88,5 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           value={formData.category}
           onChange={handleInputChange}
         />        <input
+          type="number"
 
