@@ -80,3 +80,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           placeholder="Description"
           value={formData.description}
           onChange={handleInputChange}
+        />
