@@ -84,3 +84,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         <input
           type="text"
           name="category"
+          placeholder="Category"
