@@ -85,3 +85,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           type="text"
           name="category"
           placeholder="Category"
+          value={formData.category}
