@@ -91,3 +91,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           type="number"
 
           name="amount"
+        <button type="submit">
