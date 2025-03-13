@@ -104,4 +104,5 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     </div>
 
   );
+}
 
