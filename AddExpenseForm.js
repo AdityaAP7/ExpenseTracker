@@ -93,3 +93,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
           name="amount"
         <button type="submit">
           {isEditing ? 'Update Expense' : 'Add Expense'}
+        </button>
