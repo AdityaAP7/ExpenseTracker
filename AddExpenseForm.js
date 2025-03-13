@@ -97,3 +97,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
         {isEditing && (
 
           <button type="button" onClick={onCancelEdit}>
+            Cancel
