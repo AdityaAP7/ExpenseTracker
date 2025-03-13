@@ -100,4 +100,6 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
             Cancel
                    </button>
         )}
+      </form>
+
 
