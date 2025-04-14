@@ -14,3 +14,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
   useEffect(() => {
     if (editingExpense) {
       setFormData({
+        id: editingExpense.id,
