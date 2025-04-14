@@ -7,3 +7,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
  const [formData, setFormData] = useState({
    id: '',
     const [formData, setFormData] = useState({
+    category: '',
