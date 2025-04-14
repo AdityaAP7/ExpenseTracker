@@ -10,3 +10,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     category: '',
     amount: '',
     date: '',
+  // Populate form when editing an existing expense
