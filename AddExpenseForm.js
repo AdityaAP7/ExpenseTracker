@@ -12,3 +12,4 @@ function AddExpenseForm({ editingExpense, onCancelEdit }) {
     date: '',
   // Populate form when editing an existing expense
   useEffect(() => {
+    if (editingExpense) {
