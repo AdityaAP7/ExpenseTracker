@@ -1,4 +1,4 @@
-1import React, { useState } from 'react';
+11import React, { useState } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import {
   TextInput,
