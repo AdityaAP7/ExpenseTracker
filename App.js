@@ -1,4 +1,4 @@
-1
+import * as React from 'react';
 2
 3
 4
