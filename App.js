@@ -1,5 +1,5 @@
 import * as React from 'react';
-2
+import * as React from 'react';
 3
 4
 import * as React from 'react';
