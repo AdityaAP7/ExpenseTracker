@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as React from 'react';
-3
+import * as React from 'react';
 import * as React from 'react';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
