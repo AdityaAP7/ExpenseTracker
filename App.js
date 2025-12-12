@@ -1,28 +1,4 @@
-1
-21
-5
-9
-71111
-11r111
-d11
-1111
-211111
-211
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
 
-4
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
