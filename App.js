@@ -1,5 +1,4 @@
-7890
-123456
+1
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
